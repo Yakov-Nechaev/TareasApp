@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Tareas" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryContainer">@color/color_primary_container</item>
+
+        <item name="toolbarStyle">@style/Widget.Tareas.Toolbar</item>
+    </style>
+
+    <style name="Theme.Tareas" parent="Base.Theme.Tareas" />
+
+    <style name="Widget.Tareas.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="subtitleTextColor">@android:color/white</item>
+        <item name="navigationIconTint">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:theme">@style/ThemeOverlay.Tareas.ToolbarIcons</item>
+    </style>
+
+    <style name="ThemeOverlay.Tareas.ToolbarIcons" parent="">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="App.LightAlertDialogTheme" parent="Theme.Material3.Light.Dialog">
+        <item name="colorPrimary">@color/color_secondary</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Tareas</string>
+
+    <string name="texto_info">
+    Esta aplicación cumple con todos los requisitos de la tarea técnica:\n\n
+    - Aplicación básica de To-do en Android usando Kotlin y XML.\n
+    - Consumo de la API https://jsonplaceholder.typicode.com/todos.\n
+    - Lista de tareas con funcionalidad para crear, eliminar, modificar el título y cambiar el estado de completado.\n
+    - El estado se mantiene al cambiar la configuración del dispositivo.\n\n
+
+    Funcionalidades adicionales implementadas:\n\n
+    - Arquitectura MVVM.\n
+    - Verificación de conexión a internet antes de realizar solicitudes.\n
+    - Clase Resultado con estados Success y Error para manejar respuestas.\n
+    - DiffUtil para actualizaciones eficientes de la lista.\n
+    - Estilo dinámico en el adaptador: tachado y cambio de color según el estado.\n
+    - Colores diferenciados de tarjeta según el userId.\n
+    - Indicador de carga (ProgressBar).\n
+    - Snackbar con botón de cierre para notificaciones.\n
+    - Edición de tareas al hacer clic en la tarjeta.\n
+    - Estructura de código limpia siguiendo principios SOLID.\n
+    - Tema visual fijo que no cambia con el modo claro/oscuro del sistema.\n\n
+
+    Debido a las limitaciones de la API (la lista siempre devuelve los mismos datos), se ajustó la lógica para reflejar los cambios visuales al editar y eliminar tareas.
+</string>
+
+    <!-- General -->
+    <string name="snackbar_close">Cerrar</string>
+    <string name="spinner_todos">Todos</string>
+
+    <!-- Toolbar -->
+    <string name="toolbar_usuario">Usuario %1$d</string>
+    <string name="toolbar_tarea">Tarea %1$d: %2$s</string>
+
+    <!-- Diálogos -->
+    <string name="title_eliminar">¿Eliminar tarea?</string>
+    <string name="title_editar">Editar tarea</string>
+    <string name="title_crear">Crear nueva tarea</string>
+
+    <!-- Botones -->
+    <string name="boton_eliminar">ELIMINAR</string>
+    <string name="boton_guardar">GUARDAR</string>
+    <string name="boton_cancelar">CANCELAR</string>
+    <string name="boton_crear">CREAR</string>
+
+    <!-- Hint -->
+    <string name="hint_titulo">Título</string>
+    <string name="technical_task">Tarea técnica</string>
+    <string name="close">Close</string>
+    <string name="load_data">Cargar datos</string>
+    <string name="task_list">Lista de tareas</string>
+    <string name="add">Agregar</string>
+    <string name="delete">Eliminar</string>
+</resources>
